@@ -11,7 +11,7 @@ public class LoginService {
 	
 	public String validateUSer(LoginUser loginUser) {
 		
-		if(loginUser.getUsername().equals("siva") && loginUser.getPassword().equals("ujjwala")) {
+		if(loginUser.getUsername().equals("siva") && loginUser.getPassword().equals("sankar")) {
 			
 			return "Dear "+loginUser.getUsername()+" your are valid customer";
 		}
